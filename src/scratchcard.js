@@ -1,5 +1,3 @@
-'user strict';
-
 function ScratchCard(selector, options) {
   let defaultOptions = {
     width: "300",
