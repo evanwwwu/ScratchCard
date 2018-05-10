@@ -25,6 +25,7 @@ function ScratchCard(selector, options) {
 }
 ScratchCard.prototype.init = function (selector) {
   let self = this, bgc = "";
+  console.log(selector);
   selector.appendChild(self.canvas);
   self.canvas.width = self.options.width;
   self.canvas.height = self.options.height;

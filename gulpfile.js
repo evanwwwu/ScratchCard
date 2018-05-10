@@ -54,7 +54,7 @@ gulp.task('connectDist', function () {
 
 // Watch
 gulp.task('watch', function () {
-    gulp.watch(['src/js/**'], ['js']);
+    gulp.watch(['src/*.js'], ['js']);
 });
 
 //Build
